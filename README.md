@@ -26,26 +26,6 @@ This repository serves as a full-featured implementation of a robust **End-to-En
 
 ---
 
-## 📂 Repository Architecture 📁🧩📦
-
-```plaintext
-stock-pipeline/
-├── dashboards/
-│   └── app.py               # Dash application for real-time visualization
-├── src/
-│   ├── data_fetcher.py      # Fetches stock data using yfinance or alpha_vantage
-│   ├── etl_pipeline.py      # Cleans data & computes technical indicators
-│   └── visualizer.py        # Plotly graphing functions (e.g., candlesticks, bands)
-├── outputs/
-│   ├── stock_data.csv       # Sample exported CSV
-│   └── stocks.db            # SQLite database file
-├── requirements.txt         # Python dependencies
-├── .gitignore
-└── README.md                # This documentation
-```
-
----
-
 ## 🛠️ Installation & Configuration 🧪💾🚀
 
 1. **Clone the repository**
