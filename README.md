@@ -42,8 +42,8 @@ This repository serves as a full-featured implementation of a robust **End-to-En
    ```
 
 3. **Install package dependencies**
-   ```bash
-   pip install -r requirements.txt
+   ```
+   pip install yfinance alpha-vantage pandas numpy plotly dash statsmodels python-dotenv
    ```
 
 4. **API Configuration (Optional)**
