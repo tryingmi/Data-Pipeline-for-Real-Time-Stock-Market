@@ -18,9 +18,7 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build app image
-        run: docker build -t stock-pipeline ./src
+        run: docker build -t stock-pipeline
 
       - name: Run smoke test
-        run: |
-          cd src
-          docker compose up --build smoketest
+        run: docker compose up --build smoketest
