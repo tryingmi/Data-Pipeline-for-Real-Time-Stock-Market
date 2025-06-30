@@ -22,6 +22,5 @@ jobs:
 
       - name: Run smoke test
         run: |
-        cd src
-        docker compose up --build smoketest
-
+          cd src
+          docker compose up --build smoketest
