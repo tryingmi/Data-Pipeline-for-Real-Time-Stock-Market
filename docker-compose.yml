@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8050:8050"
+
+  smoketest:
+    build: .
+    command: ["python", "tests/smoke_test.py"]
+    environment:
+      - PYTHONPATH=/app
